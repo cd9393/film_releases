@@ -22,6 +22,51 @@
   color: #61dafb;
 }
 
+.filmbox{
+  border: black 1px solid;
+  display: flex;
+flex-flow: column;
+text-align: center;
+width: 60%;
+background-color: grey;
+}
+
+.filmbox h2{
+  border-bottom: 1px solid black;
+}
+
+.film-list{
+  display: flex;
+  flex-flow: column;
+  align-items: end;
+
+}
+
+.film{
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+.bottom{
+  padding-top: 12px;
+  border-top: solid 1px black;
+  display: flex;
+justify-content: center;
+background-color: #d8e7f3;
+}
+
+.bottom a{
+  padding-bottom: 20px;
+  font-size: x-large;
+}
+
+#root{
+
+    display: flex;
+    justify-content: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
